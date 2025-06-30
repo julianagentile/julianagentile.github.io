@@ -1,3 +1,4 @@
-title: My Site
-description: A GitHub Pages site using Jekyll
-theme: minima
+title: Juliana's Portfolio
+description: My personal resume and project showcase
+baseurl: "" # Leave empty for root
+url: ""     # Or your GitHub Pages URL
