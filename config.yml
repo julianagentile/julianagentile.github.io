@@ -1,7 +1,8 @@
 title: Juliana's Portfolio
 description: My personal resume and project showcase
 markdown: kramdown
-theme: null
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
 baseurl: "" # Leave empty for root
 url: ""     # Or your GitHub Pages URL
-
