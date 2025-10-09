@@ -1,5 +1,7 @@
 title: Juliana's Portfolio
 description: My personal resume and project showcase
+markdown: kramdown
+theme: null
 baseurl: "" # Leave empty for root
 url: ""     # Or your GitHub Pages URL
 
