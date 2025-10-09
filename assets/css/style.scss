@@ -38,6 +38,40 @@ nav a:focus {
   text-shadow: 0 0 8px #39ff14;
 }
 
+.navbar {
+  background-color: #1b263b; // dark navy bar
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 255, 0, 0.2);
+}
+
+.nav-list {
+  list-style: none;  // remove bullets
+  margin: 0;
+  padding: 0;
+  display: flex;     // make items horizontal
+  gap: 1rem;         // space between boxes
+}
+
+.nav-item {
+  display: block;
+  padding: 0.75rem 1.5rem;
+  background-color: #0d1b2a; // dark background for each box
+  color: #39ff14;            // neon green text
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #39ff14;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+  background-color: #ff9100; // neon orange on hover
+  color: #0d1b2a;            // dark text for contrast
+  border-color: #ff9100;
+}
+
 body {
   background-color: #0d1b2a; // dark blue background
   color: #e0e0e0;           // light gray text
