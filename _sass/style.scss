@@ -1,6 +1,20 @@
 // Custom overrides below
+// Site header container
+.site-header {
+  text-align: center;
+  padding: 1rem 0 0.5rem 0;
+  background-color: #0d1b2a;
+  border-bottom: 2px solid #39ff14;
+}
 
-/* ====== Neon Navbar Overrides ====== */
+// Title styling
+.site-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #39ff14; // neon green title
+  margin: 0.5rem 0 1rem 0;
+  text-shadow: 0 0 10px rgba(57, 255, 20, 0.6);
+}
 
 nav {
   background-color: #1b263b; /* deep blue bar */
